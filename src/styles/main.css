@@ -1,0 +1,33 @@
+:root {
+  --primary: 4, 113, 166;
+  --secondary: 9, 232, 94;
+  --main: 181, 186, 208;
+  --fill: 28, 17, 10;
+  --secondaryFill: 224, 224, 226;
+}
+
+.wrapper {
+  background: var(--primary);
+  color: white;
+}
+#basic-nav-dropdown {
+  color: white;
+}
+
+.content {
+  padding-top: 4em;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0 auto;
+}
+.card-img {
+  width: 300px;
+  height: 150px;
+}
+
+.footer {
+  background-color: var(--primary);
+  color: white;
+}
