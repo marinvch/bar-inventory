@@ -1,10 +1,9 @@
 import React from "react";
 import Nav from "../Nav";
-import "../../styles/main.css";
 
 export default function Header() {
   return (
-    <div className="d-flex bd-highlight wrapper">
+    <div id="wrapper" className="d-flex bd-highlight">
       <div className="p-2 flex-shrink-1 bd-highlight">
         <Nav />
       </div>

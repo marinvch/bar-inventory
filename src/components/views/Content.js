@@ -1,6 +1,9 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import "../../styles/main.css";
+import img1 from "./images/img1.png";
+import img2 from "./images/img2.png";
+import img3 from "./images/img3.png";
 
 export default function Content() {
   return (
@@ -8,11 +11,7 @@ export default function Content() {
       <Row className="content d-flex">
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              className="card-img"
-              variant="top"
-              src="holder.js/100px180"
-            />
+            <Card.Img className="card-img" variant="top" src={img1} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -24,12 +23,8 @@ export default function Content() {
         </Col>
         <Col>
           {" "}
-          <Card classname="card" style={{ width: "18rem" }}>
-            <Card.Img
-              className="card-img"
-              variant="top"
-              src="holder.js/100px180"
-            />
+          <Card className="card" style={{ width: "18rem" }}>
+            <Card.Img className="card-img" variant="top" src={img2} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -42,11 +37,7 @@ export default function Content() {
         <Col>
           {" "}
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              className="card-img"
-              variant="top"
-              src="holder.js/100px180"
-            />
+            <Card.Img className="card-img" src={img3} variant="top" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -57,6 +48,7 @@ export default function Content() {
           </Card>
         </Col>
       </Row>
+      <Row></Row>
     </Container>
   );
 }

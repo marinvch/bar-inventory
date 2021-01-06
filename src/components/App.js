@@ -10,6 +10,7 @@ import ForgotPassword from "./ForgotPassword";
 import UpdateProfile from "./UpdateProfile";
 import BarInventory from "./user/BarInventory";
 import Status from "./user/Status";
+import '../styles/main.css'
 
 function App() {
   return (
