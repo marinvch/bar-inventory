@@ -1,4 +1,3 @@
-
 :root {
   --primary: 4, 113, 166;
   --secondary: 9, 232, 94;
@@ -7,8 +6,13 @@
   --secondaryFill: 224, 224, 226;
 }
 
-#wrapper {
-  background-color: var(--primary);
+.nav-wrapper {
+  background-color:#4B71A6;
+}
+
+
+header {
+  background-color: #4B71A6;
   color: white;
 }
 
@@ -29,7 +33,12 @@
   height: 190px;
 }
 
-.footer {
-  background-color: var(--primary);
+footer {
+  background-color: #4B71A6;
+  text-align: center;
   color: white;
+  position: fixed;
+  bottom: 0px;
+  padding: 15px;
+  width: 100%;
 }

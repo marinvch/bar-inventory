@@ -5,7 +5,7 @@ import '../styles/main.css'
 
 export default function Nav() {
   return (
-    <Navbar className="col-12 nav-wrapper">
+        <Navbar  className="col-12 ">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <NavDropdown title="Menu" id="basic-nav-dropdown">
         <NavDropdown.Divider />
@@ -70,5 +70,6 @@ export default function Nav() {
         </NavDropdown.Item>
       </NavDropdown>
     </Navbar>
+    
   );
 }
